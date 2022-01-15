@@ -1,0 +1,31 @@
+.hero__box{
+   background-image: url(../img/hero-bg.png);
+   background-repeat: no-repeat;
+   padding-top: 135px;
+   padding-bottom: 135px;
+   padding-left: 85px;
+   margin-bottom: 177px;
+}
+.hero__headding{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FEFCF7;
+   margin-top: 0px;
+   margin-bottom: 2rem;
+}
+.hero__description-box{
+   width: 445px;
+}
+.hero__description{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}

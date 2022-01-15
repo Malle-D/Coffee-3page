@@ -1,0 +1,175 @@
+.createcoffee__box{
+   display: flex;
+   margin-bottom: 170px;
+   padding: 0px 85px;
+}
+.createcoffee__sections-list{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   margin-right: 125px;
+}
+.createcoffee__sections-item{
+   display: flex;
+   align-items: center;
+   width: 225px;
+   border-bottom: 2px solid rgba(131, 136, 143, 0.25);
+   margin-bottom: 24px;
+}
+.createcoffee__sections-item:last-child{
+   border-bottom: #ffffff;
+}
+.createcoffee__sections-links{
+   font-family: "Fraunces";
+   display: inline-block;
+   text-decoration: none;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: black;
+   opacity: 0.4;
+   margin-bottom: 24px;
+}
+.createcoffee__sections-links--black{
+   opacity: 1;
+}
+.createcoffee__sections-links:hover{
+   opacity: 0.6;
+}
+.createcoffee__sections-number{
+   margin-right: 10px;
+}
+.createcoffee__sections-number--green{
+   color: #0E8784;
+}
+
+.form__hidden-case{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 56px;
+}
+.form__hidden{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #83888F;
+   margin: 0px;
+}
+
+.form__box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 88px;
+}
+
+.form__label-case{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.form__input:checked ~ .form__controller{
+   background-color: #0E8784;
+   transition: 0.2s;
+}
+
+.form__controller{
+   width: 228px;
+   background-color: #F4F1EB;
+   padding: 32px 0px 84px 28px;
+   display: inline-block;
+   border-radius: 8px;
+}
+.form__input-title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #333D4B;
+   margin-top: 0px;
+   margin-bottom: 24px;
+}
+.form__input:checked ~ .form__controller > .form__input-title{
+   color: #ffffff;
+   transition: 0.2s;
+}
+.form__input-description-case{
+   width: 172px;
+}
+.form__input ~ .form__controller:hover{
+   background-color: #FDD6BA;
+   transition: 0.2s;
+}
+.form__input:checked ~ .form__controller:hover{
+   background-color: $main-color;
+}
+.form__input-description{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+}
+.form__input:checked ~ .form__controller > .form__input-description-case > .form__input-description{
+   color: #ffffff;
+   transition: 0.2s;
+}
+.quote{
+   background-color: #2C343E;
+   padding: 27px 64px;
+   margin-bottom: 40px;
+}
+.quote__author{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   opacity: 0.5;
+   margin-top: 0px;
+   margin-bottom: 8px;
+}
+.quote__info{
+   margin: 0px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 40px;
+   color: #FFFFFF;
+}
+.quote__green-text{
+   color: #0E8784;
+}
+.buttons-box{
+   display: flex;
+   justify-content: end;
+}
+.create-button{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   text-decoration: none;
+   color: #FEFCF7;
+   padding: 15px 35px;
+   background-color: #0E8784;
+   border-radius: 6px;
+   border: none;
+}
+.create-button:nth-child(2){
+   margin-left: 20px;
+}
+.create-button:hover{
+   background-color: #66D2CF;
+}
